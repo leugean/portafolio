@@ -1,0 +1,82 @@
+@font-face {
+    font-family:prata ;
+    src: url('https://fonts.google.com/specimen/Prata');
+    font-weight: 500;
+}
+@font-face {
+    font-family: Inter;
+src: url('https://fonts.google.com/specimen/Inter');
+}
+
+body{
+    background: #000;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand, h1, h2, h3{
+    font-family: prata;
+    color: #fff;
+}
+p, ul{
+    font-family: Inter;
+    color: #f8f8ff;
+}
+.encabezado{
+    width: 100%;
+}
+.titulo{
+    width: 50%;
+    margin-top: 15px;
+}
+@media all and (max-width:450px) {
+    .wrapper{
+        padding:0 10px;
+    }
+    .titulo{
+        width:100%;
+    }
+}
+@media all and (max-width:950px){
+    .titulo{
+        width: 100%;
+    }
+}
+.titulos{
+    margin-top: 20px;
+}
+.empresas{
+    height: auto;
+    width: 100%;
+}
+#articulos{
+    width: 100%;
+    height: auto;
+    margin-top:15px;
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+}
+.der{
+    display: flex;
+    flex-direction: column;
+    
+}
+.premios{
+    background: rgb(83, 82, 82);
+    padding-top: 20px;
+    
+}
+#contactenos{
+    width: 100%;
+    padding: 25px 0;
+}
+.footer{
+    width: 100%;
+    background: rgb(83, 82, 82);
+    padding: 25px 0;
+}
